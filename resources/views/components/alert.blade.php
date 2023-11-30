@@ -1,12 +1,5 @@
-<style>
-    .btn
-    {
-        width: 100%;
-    }
-</style>
 
-
-<div class="flex-col w-1/4 h-full ">
+<div class="flex-col flex-1 w-full h-full ">
     @if(isset($route1))<a class="flex w-full h-[40px] pt-1 pl-2 mb-2 bg-blue-200 rounded-[12px] " href="{{ $route1 }}">{{ $link1 }}</a>@endif
     @if(isset($route2))<a class="flex w-full h-[40px] pt-1 pl-2 mb-2 bg-blue-200 rounded-[12px] " href="{{ $route2 }}">{{ $link2 }}</a>@endif
     @if(isset($route3))<a class="flex w-full h-[40px] pt-1 pl-2 mb-2 bg-blue-200 rounded-[12px]" href="{{ $route3 }}">{{ $link3 }}</a>@endif
